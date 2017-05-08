@@ -12,6 +12,7 @@ App({
       typeof cb == "function" && cb(this.globalData.userInfo)
     }else{
       //调用登录接口
+      //test
       wx.login({
         success: function () {
           wx.getUserInfo({
